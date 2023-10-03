@@ -32,7 +32,7 @@ class Sidebar extends StatelessWidget {
             leading: Icon(Icons.brightness_6),
             title: Text('Toggle Theme'),
             onTap: () {
-              // Logic to toggle theme
+              // Lógica para cambiar el tema se hará a futuro
             },
           ),
           Divider(),
