@@ -20,7 +20,7 @@ class LoginScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Image.asset(
-                  'assets/images/undraw_Sign_up_n6im.png',
+                  'assets/images/undraw_welcome_cats_thqn.png',
                   height: MediaQuery.of(context).size.height * 0.25,
                 ),
                 SizedBox(height: 20),

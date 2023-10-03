@@ -19,7 +19,7 @@ class RegisterScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Image.asset(
-                  'assets/images/undraw_Having_fun_re_vj4h.png',
+                  'assets/images/undraw_Sign_up_n6im.png',
                   height: MediaQuery.of(context).size.height * 0.33,
                 ),
                 SizedBox(height: 20),

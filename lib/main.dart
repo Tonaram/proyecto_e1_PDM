@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:proyecto_e1_app/screens/home_screen.dart';
 import 'package:proyecto_e1_app/screens/login_screen.dart';
 import 'package:proyecto_e1_app/screens/register_screen.dart';
+import 'package:proyecto_e1_app/screens/create_event_screen.dart';
+import 'package:proyecto_e1_app/screens/find_event_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,8 +23,8 @@ class MyApp extends StatelessWidget {
         '/register': (context) => RegisterScreen(),
         // '/eventDetails': (context) => EventDetailsScreen(),
         // '/profile': (context) => ProfileScreen(),
-        // '/createEvent': (context) => CreateEventScreen(),
-        // '/findEvent': (context) => FindEventScreen(),
+        '/createEvent': (context) => CreateEventScreen(),
+        '/findEvent': (context) => FindEventScreen(),
       },
     );
   }
