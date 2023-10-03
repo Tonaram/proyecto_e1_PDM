@@ -5,6 +5,7 @@ import 'package:proyecto_e1_app/screens/register_screen.dart';
 import 'package:proyecto_e1_app/screens/create_event_screen.dart';
 import 'package:proyecto_e1_app/screens/find_event_screen.dart';
 import 'package:proyecto_e1_app/screens/event_details_screen.dart';
+import 'package:proyecto_e1_app/screens/profile_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(),
         '/register': (context) => RegisterScreen(),
         '/eventDetails': (context) => EventDetailsScreen(),
-        // '/profile': (context) => ProfileScreen(),
+        '/profile': (context) => ProfileScreen(),
         '/createEvent': (context) => CreateEventScreen(),
         '/findEvent': (context) => FindEventScreen(),
       },
